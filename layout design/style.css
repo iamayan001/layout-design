@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container nav{
+    width: 100vw;
+    height: 5vh;
+    background-color:rgb(207, 41, 146);
+}
+.boxes{
+    width: 90vw;
+    height: 60vh;
+    background-color: green;
+    margin: 8px 70px;
+   
+}
+.box{
+
+    width:28% ;
+    height: 80%;
+    display: inline-block;
+    background-color: rgb(231, 82, 109);
+    margin: 50px 161px;
+    
+}
+.box:last-child{
+    background-color: rgb(36, 165, 191);
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: fixed;
+    background-color: orangered;
+    margin-left: 96vw;
+}
+.para{
+    width: 70vw;
+    height: 20vh;
+    border: 2px solid black;
+    border-radius: 60px;
+    margin-left:230px ;
+
+}
+.para p{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin: 20px 20px;
+}
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color:rgb(157, 168, 168);
+    margin-top: 68px;
+}
